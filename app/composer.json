@@ -1,0 +1,16 @@
+{
+    "name": "vendor/name",
+    "description": "frilacne screens",
+    "type": "project",
+    "authors": [
+        {
+            "name": "vorobev nicolay"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {"App\\": "./"}
+    }
+}
