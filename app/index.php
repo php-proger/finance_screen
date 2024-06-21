@@ -6,4 +6,7 @@ require_once __DIR__ . "/vendor/autoload.php";
 
 
 $uploader = new UploaderClass();
-$uploader->testMethod();
+$uploader->uploaderFileBrowser();
+
+header('Location:/');
+exit;
